@@ -77,15 +77,15 @@ This repository contains the experiments conducted in the [On the Importance of 
 
 # The Repository Structure
 
-  * [`code_firth`](https://github.com/ehsansaleh/code_firth/tree/81d08e1d9cacb8440a7c9317fde344280dd08305) directory contains the Firth regularization code used for the standard ResNet architecture tested on the mini-Imagenet data set.
+  * [`code_firth`](https://github.com/ehsansaleh/code_firth) directory contains the Firth regularization code used for the standard ResNet architecture tested on the mini-Imagenet data set.
 
 <!--   * To see the Firth regularization code used for the standard ResNet architecture results on the mini-imagenet data set, please open the [`code_firth`](https://github.com/ehsansaleh/code_firth/tree/81d08e1d9cacb8440a7c9317fde344280dd08305) directory. -->
 
-  * [`code_s2m2rf`](https://github.com/ehsansaleh/code_s2m2rf/tree/b9970bd70645c655efbbd1e3f86d2c315fa223a3) directory contains the experimnets on mini-Imagenet, CIFAR-FS, and tiered-Imagenet data sets using the WideResNet28 feature stack trained by the S2M2R method.
+  * [`code_s2m2rf`](https://github.com/ehsansaleh/code_s2m2rf) directory contains the experimnets on mini-Imagenet, CIFAR-FS, and tiered-Imagenet data sets using the WideResNet28 feature stack trained by the S2M2R method.
 
 <!--   * For the WideResNet28 feature stack trained by the S2M2R method, and the results on the miniImagenet, CIFAR-FS, and tieredImagenet data sets, please open the [`code_s2m2rf`](https://github.com/ehsansaleh/code_s2m2rf/tree/b9970bd70645c655efbbd1e3f86d2c315fa223a3) directory. -->
 
-  * [`code_dcf`](https://github.com/sabagh1994/code_dcf/tree/3bf797e388ac2103c500e23634963490bc98c2a5) directory contains our **GPU implementation of [Distribution Calibration (DC)](https://github.com/ShuoYang-1998/Few_Shot_Distribution_Calibration) method** and all the experiments performed on it. **If you use our GPU implementation of the DC method, please cite our paper ["On the Importance of Firth Bias Reduction in Few-Shot Classification, ICLR 2022"](#references).**
+  * [`code_dcf`](https://github.com/sabagh1994/code_dcf) directory contains our **GPU implementation of [Distribution Calibration (DC)](https://github.com/ShuoYang-1998/Few_Shot_Distribution_Calibration) method** and all the experiments performed on it. **If you use our GPU implementation of the DC method, please cite our paper ["On the Importance of Firth Bias Reduction in Few-Shot Classification, ICLR 2022"](#references).**
 
 ## References
 * Here is the arxiv link to our paper:
