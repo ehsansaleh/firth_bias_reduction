@@ -81,7 +81,7 @@ This repository contains the experiments conducted in the [On the Importance of 
 
   * For the WideResNet28 feature stack trained by the S2M2R method, and the results on the mini-imagenet, CIFAR-FS, and tiered-imagenet data sets, please open the [`code_s2m2rf`](./code_s2m2rf) directory.
 
-  * [`code_dcf`](./code_dcf) directory contains the **GPU implementation of [Distribution Calibration (DC)](https://github.com/ShuoYang-1998/Few_Shot_Distribution_Calibration) method** and all the experiments performed on it. **If you use our GPU implementation of the DC method, please cite our paper ["On the Importance of Firth Bias Reduction in Few-Shot Classification, ICLR 2022"](#references).**
+  * [`code_dcf`](./code_dcf) directory contains our **GPU implementation of [Distribution Calibration (DC)](https://github.com/ShuoYang-1998/Few_Shot_Distribution_Calibration) method** and all the experiments performed on it. **If you use our GPU implementation of the DC method, please cite our paper ["On the Importance of Firth Bias Reduction in Few-Shot Classification, ICLR 2022"](#references).**
 
 ## References
 * Here is the arxiv link to our paper:
