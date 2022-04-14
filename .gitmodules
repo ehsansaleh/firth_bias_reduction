@@ -1,0 +1,3 @@
+[submodule "code_firth"]
+	path = code_firth
+	url = git@github.com:ehsansaleh/code_firth.git
