@@ -1,5 +1,11 @@
 # Firth Bias Reduction in Few-shot Classification
-This repository contains the experiments conducted in the [On the Importance of Firth Bias Reduction in Few-Shot Classification](https://openreview.net/pdf?id=DNRADop4ksB) paper.
+This repository contains all the experiments conducted in the [On the Importance of Firth Bias Reduction in Few-Shot Classification](https://openreview.net/pdf?id=DNRADop4ksB) paper.
+
+To clone this repo with all three of its sub-modules, run:
+
+```bash
+git clone --recursive https://github.com/ehsansaleh/firth_bias_reduction.git
+```
 
 <details open>
 <summary><h2>The Paper in Pictures</h2></summary>
