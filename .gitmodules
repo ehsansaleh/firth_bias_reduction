@@ -1,3 +1,6 @@
 [submodule "code_firth"]
 	path = code_firth
 	url = git@github.com:ehsansaleh/code_firth.git
+[submodule "code_dcf"]
+	path = code_dcf
+	url = git@github.com:sabagh1994/code_dcf.git
