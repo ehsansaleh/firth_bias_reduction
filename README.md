@@ -8,8 +8,7 @@ This repository contains the experiments conducted in the [On the Importance of 
     <summary><strong>The MLE Bias in Few-shot Classification</strong></summary>
   
     Here is a visualization to help you get the overall context of typical loss minimization (MLE) bias with only a few samples.
-
-    <img src="./code_firth/opt/static_figures/mlebiasslide.svg" alt="drawing" width="96%"/>
+    <img src="https://raw.githubusercontent.com/ehsansaleh/code_firth/main/opt/static_figures/mlebiasslide.svg" alt="drawing" width="96%"/>
 
     </details>
   
@@ -55,7 +54,7 @@ This repository contains the experiments conducted in the [On the Importance of 
   
     Here is a simple example show-casing average the MLE's bias from the true parameters in a geometric experiment with a fair coin, and the slow rate at which this bias disappears.
 
-    <img src="./code_firth/opt/static_figures/avgmle_vs_nsamples_geom.svg" alt="drawing" width="46.5%"/> <img src="./code_firth/opt/static_figures/logmlebias_vs_lognsamples_geom.svg" alt="drawing" width="47.5%"/>
+    <img src="https://raw.githubusercontent.com/ehsansaleh/code_firth/main/opt/static_figures/avgmle_vs_nsamples_geom.svg" alt="drawing" width="46.5%"/> <img src="https://raw.githubusercontent.com/ehsansaleh/code_firth/main/opt/static_figures/logmlebias_vs_lognsamples_geom.svg" alt="drawing" width="47.5%"/>
 
     </details>
 
@@ -64,13 +63,13 @@ This repository contains the experiments conducted in the [On the Importance of 
   
     Here is the effect of Firth bias reduction campared to typical L2 regularization in 16-way few-shot classification tasks using basic feature backbones and 3-layer logistic classifiers.
 
-    <img src="./code_firth/opt/static_figures/dacc_vs_nshots_firth_3layer_mini.svg" alt="drawing" width="48%"/> <img src="./code_firth/opt/static_figures/dacc_vs_nshots_l2_3layer_mini.svg" alt="drawing" width="46%"/>
+    <img src="https://raw.githubusercontent.com/ehsansaleh/code_firth/main/opt/static_figures/dacc_vs_nshots_firth_3layer_mini.svg" alt="drawing" width="48%"/> <img src="https://raw.githubusercontent.com/ehsansaleh/code_firth/main/opt/static_figures/dacc_vs_nshots_l2_3layer_mini.svg" alt="drawing" width="46%"/>
   
     Below is the effect of Firth bias reduction on cosine classifiers and S2M2R features.
 
-    <img src="./code_s2m2rf/figures/dacc_vs_nways_miniImagenet.svg" alt="drawing" width="47%"/> <img src="./code_s2m2rf/figures/dacc_vs_nways_cifar.svg" alt="drawing" width="47%"/>
+    <img src="https://raw.githubusercontent.com/ehsansaleh/code_s2m2rf/main/figures/dacc_vs_nways_miniImagenet.svg" alt="drawing" width="47%"/> <img src="https://raw.githubusercontent.com/ehsansaleh/code_s2m2rf/main/figures/dacc_vs_nways_cifar.svg" alt="drawing" width="47%"/>
     
-    <img src="./code_s2m2rf/figures/dacc_vs_nways_tieredImagenet.svg" alt="drawing" width="94%"/>
+    <img src="https://raw.githubusercontent.com/ehsansaleh/code_s2m2rf/main/figures/dacc_vs_nways_tieredImagenet.svg" alt="drawing" width="94%"/>
 
     </details>
 
