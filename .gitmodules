@@ -4,3 +4,6 @@
 [submodule "code_dcf"]
 	path = code_dcf
 	url = git@github.com:sabagh1994/code_dcf.git
+[submodule "code_s2m2rf"]
+	path = code_s2m2rf
+	url = git@github.com:ehsansaleh/code_s2m2rf.git
