@@ -81,7 +81,7 @@ This repository contains the experiments conducted in the [On the Importance of 
 
   * For the WideResNet28 feature stack trained by the S2M2R method, and the results on the mini-imagenet, CIFAR-FS, and tiered-imagenet data sets, please open the [`code_s2m2rf`](./code_s2m2rf) directory.
 
-  * We will shortly add the code for the distribution calibration method.
+  * The **GPU implementation of Distribution Calibration (DC) method** and all the experiments performed on it are in [`code_dcf`](./code_dcf) directory. Please cite our paper if you use our GPU implementation of the DC method.
 
 ## References
 * Here is the arxiv link to our paper:
