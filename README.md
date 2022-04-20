@@ -1,5 +1,5 @@
 # Firth Bias Reduction in Few-shot Classification
-This repository contains all the experiments conducted in the [On the Importance of Firth Bias Reduction in Few-Shot Classification](https://openreview.net/pdf?id=DNRADop4ksB) paper.
+This repository contains all the experiments conducted in the [On the Importance of Firth Bias Reduction in Few-Shot Classification](https://openreview.net/pdf?id=DNRADop4ksB) paper. For a concise and informal description of our work, check out our paper's website: [https://ehsansaleh.github.io/firthfsl](https://ehsansaleh.github.io/firthfsl)
 
 To clone this repo with all three of its sub-modules, run:
 
@@ -32,7 +32,7 @@ git clone --recursive https://github.com/ehsansaleh/firth_bias_reduction.git
   
       <p align="center"><img src="https://render.githubusercontent.com/render/math?math=\hat{\beta}_{\text{Firth}} = \text{argmin}_{\beta} \quad \frac{1}{N}\sum_{i=1}^{N} \bigg[\text{CE}(\mathbf{P}_i, \mathbf{y}_i) %2B \lambda \cdot \text{CE}(\mathbf{P}_i,\mathbf{U}) \bigg]" width="50%"></p>
      
-      where U is the uniform distribution over the classes, and lambda is a positive constant. The CE-term with the uniform distribution is basically the sum of the prediction log-probability values over all data points and classes. 
+      where U is the uniform distribution over the classes, and lambda is a positive constant. The CE-term with the uniform distribution is basically the (negative) sum of the prediction log-probability values over all data points and classes. 
     
       </details>
   
@@ -85,11 +85,7 @@ git clone --recursive https://github.com/ehsansaleh/firth_bias_reduction.git
 
   * [`code_firth`](https://github.com/ehsansaleh/code_firth) directory contains the Firth regularization code used for the standard ResNet architecture tested on the mini-Imagenet data set.
 
-<!--   * To see the Firth regularization code used for the standard ResNet architecture results on the mini-imagenet data set, please open the [`code_firth`](https://github.com/ehsansaleh/code_firth/tree/81d08e1d9cacb8440a7c9317fde344280dd08305) directory. -->
-
   * [`code_s2m2rf`](https://github.com/ehsansaleh/code_s2m2rf) directory contains the experimnets on mini-Imagenet, CIFAR-FS, and tiered-Imagenet data sets using the WideResNet28 feature stack trained by the S2M2R method.
-
-<!--   * For the WideResNet28 feature stack trained by the S2M2R method, and the results on the miniImagenet, CIFAR-FS, and tieredImagenet data sets, please open the [`code_s2m2rf`](https://github.com/ehsansaleh/code_s2m2rf/tree/b9970bd70645c655efbbd1e3f86d2c315fa223a3) directory. -->
 
   * [`code_dcf`](https://github.com/sabagh1994/code_dcf) directory contains our **GPU implementation of [Distribution Calibration (DC)](https://github.com/ShuoYang-1998/Few_Shot_Distribution_Calibration) method** and all the experiments performed on it. **If you use our GPU implementation of the DC method, please cite our paper ["On the Importance of Firth Bias Reduction in Few-Shot Classification, ICLR 2022"](#references).**
 
@@ -102,6 +98,7 @@ git clone --recursive https://github.com/ehsansaleh/firth_bias_reduction.git
   * The open-review forum link: [https://openreview.net/forum?id=DNRADop4ksB](https://openreview.net/forum?id=DNRADop4ksB)
 * Our paper got a spot-light presentation at ICLR 2022.
   * We will update here with links to the presentation video and the web-page on `iclr.cc`.
+* * Here is a web-page for our paper: [https://ehsansaleh.github.io/firthfsl](https://ehsansaleh.github.io/firthfsl)
 * Here is the bibtex citation entry for our work:
 ```
 @inproceedings{ghaffari2022fslfirth,
